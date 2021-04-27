@@ -52,11 +52,22 @@ code {
   text-align: center;
   color: #fff;
   background-color: #000000;
+  transition: 3s;
+}
+.insurance:hover{
+  color: #d4af37;
+}
+.insurance-head{
+  font-size: 35px;
+  margin-bottom: 5px;
 }
 
 .boxes{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
+  margin-top: 30px;
+  margin-bottom: 5%;
 }
 
 #icon{
@@ -68,4 +79,31 @@ code {
 }
 #icon:hover{
   background-color: #d4af37;
+}
+
+.box h4{
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.box p{
+  width: 320px;
+  color: #999999;
+}
+.box button{
+  padding: 10px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 25px;
+  border: 2px solid #d4af37;
+  color: #d4af37;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  transition: 1s;
+}
+.box button:hover{
+  background-color: #d4af37;
+  color: #fff;
 }

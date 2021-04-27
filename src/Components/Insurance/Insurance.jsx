@@ -5,7 +5,7 @@ import * as HiIcons from "react-icons/hi";
 const Insurance = () => {
     return (
         <div className="insurance">
-            <h2>Insurance and investing for your many ideas</h2>
+            <h2 className="insurance-head">Insurance and investing for your many ideas</h2>
             <p>We've been protecting people, businesses and futures for more than 90 years.</p>
             <div className="boxes">
                 <div className="box">
