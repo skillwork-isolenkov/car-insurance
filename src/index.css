@@ -109,8 +109,67 @@ code {
 }
 
 /* Finding */
+.finding{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #000000;
+  color: #fff;
+}
 
+.finding-text{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  justify-content: space-evenly;
+}
 
+.left{
+  transition: 3s;
+}
+.left:hover{
+  color: #d4af37;
+}
+.left h1{
+  width: 500px;
+}
+.left p{
+  width: 500px;
+}
+
+.right{
+  background-color: #d4af37;
+  padding: 50px 20px 10px 20px;
+  transition: 3s;
+}
+.right:hover{
+  color: #000000;
+}
+.right h2{
+  font-weight: bolder;
+  font-size: 20px;
+}
+.right p{
+  width: 500px;
+  margin-bottom: 25px;
+}
+
+.images{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 3%;
+  margin-bottom: 50px;
+}
+.images img{
+  height: 200px;
+  width: 300px;
+  cursor: pointer;
+  filter: blur(1.5px);
+}
+.images img:hover{
+  filter: blur(0px);
+}
 /* BestCompanies */
 
 
@@ -131,12 +190,36 @@ code {
     font-size: 25px;
   }
   .home-elements p{
-    width: 350px;
+    width: 365px;
     font-size: 15px;
   }
 
   /* Insurance */
   .box{
     margin-bottom: 20px;
+  }
+
+  /* Finding */
+  .left h1{
+    font-size: 35px;
+    text-align: center;
+    width: 300px;
+  }
+  .left p{
+    width: 300px;
+    font-size: 14px;
+  }
+
+  .right h2{
+    font-size: 35px;
+    text-align: center;
+  }
+  .right p{
+    width: 330px;
+    text-align: center;
+  }
+
+  .images img{
+    margin-top: 25px;
   }
 }
