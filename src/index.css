@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -14,10 +14,58 @@ code {
 
 /* Home */
 .home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: white;
   background-image: url(./Components/images/home/home-background.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: top;
-  height: 100vh;
+  height: 95vh;
+}
+
+.home-elements{
+  margin-top: 5%;
+  transition: 3s;
+}
+.home-elements:hover{
+  color: #d4af37;
+}
+.home-elements h1{
+  font-size: 3rem;
+}
+.home-elements p{
+  width: 720px;
+  
+}
+.home-elements span{
+  font-weight: bold;
+}
+
+/* Insurance */
+.insurance{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #fff;
+  background-color: #000000;
+}
+
+.boxes{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#icon{
+  padding: 5px;
+  border-radius: 50%;
+  font-size: 60px;
+  background-color: #000000;
+  transition: 2s;
+}
+#icon:hover{
+  background-color: #d4af37;
 }
