@@ -107,3 +107,36 @@ code {
   background-color: #d4af37;
   color: #fff;
 }
+
+/* Finding */
+
+
+/* BestCompanies */
+
+
+/* Contact */
+
+
+
+
+/* Responsive Design */
+
+/* Portrait */
+@media only screen and (max-width: 900px) {
+  /* Home */
+  .home{
+    height: 70vh;
+  }
+  .home-elements h1{
+    font-size: 25px;
+  }
+  .home-elements p{
+    width: 350px;
+    font-size: 15px;
+  }
+
+  /* Insurance */
+  .box{
+    margin-bottom: 20px;
+  }
+}
