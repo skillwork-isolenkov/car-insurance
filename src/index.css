@@ -174,8 +174,72 @@ code {
 
 
 /* Contact */
+.contact{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #000000;
+  color: #fff;
+  height: 60vh;
+}
+.contact-text{
+  transition: 3s;
+}
+.contact-text:hover{
+  color: #d4af37;
+}
+.contact-text p{
+  width: 450px;
+}
 
-
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  margin-top: 7%;
+}
+.contact-form input{
+  background-color: transparent;
+  color: #fff;
+  padding: 10px 12px;
+  font-size: 17px;
+  font-weight: bold;
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #fff;
+}
+.contact-form textarea{
+  background-color: transparent;
+  color: #fff;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 10px 10px;
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #fff;
+}
+.contact-form button{
+  padding: 10px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 25px;
+  border: 2px solid #d4af37;
+  color: #d4af37;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  transition: 1s;
+  margin-top: 20px;
+  width: 125px;
+}
+.contact-form button:hover{
+  background-color: #d4af37;
+  color: #fff;
+}
 
 
 /* Responsive Design */
@@ -221,5 +285,22 @@ code {
 
   .images img{
     margin-top: 25px;
+  }
+
+  /* BestCompanies */
+
+  /* Contact */
+  .contact{
+    height: 120vh;
+  }
+  .contact-text{
+    text-align: center;
+  }
+  .contact-text p{
+    width: 300px;
+  }
+
+  .contact-form textarea{
+    width: 300px;
   }
 }
