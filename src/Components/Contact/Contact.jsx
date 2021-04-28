@@ -1,3 +1,5 @@
+import * as FaIcons from "react-icons/fa";
+
 const Contact = () => {
     return (
         <div className="contact">
@@ -21,6 +23,11 @@ const Contact = () => {
                 <input type="text" placeholder="Enter a valid email adress" />
                 <textarea placeholder="Enter your message" rows="4" cols="50"></textarea>
                 <button>Submit</button>
+                <div className="icons">
+                    <FaIcons.FaFacebookF id="social" />
+                    <FaIcons.FaTwitter id="social" />
+                    <FaIcons.FaInstagram id="social" />
+                </div>
             </div>
         </div>
     );
