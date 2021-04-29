@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/car-insurance/static/css/main.6e1bd5bb.chunk.css",
-    "main.js": "/car-insurance/static/js/main.4dece7f5.chunk.js",
-    "main.js.map": "/car-insurance/static/js/main.4dece7f5.chunk.js.map",
+    "main.css": "/car-insurance/static/css/main.2134eee8.chunk.css",
+    "main.js": "/car-insurance/static/js/main.3d3d46a4.chunk.js",
+    "main.js.map": "/car-insurance/static/js/main.3d3d46a4.chunk.js.map",
     "runtime-main.js": "/car-insurance/static/js/runtime-main.50376b6d.js",
     "runtime-main.js.map": "/car-insurance/static/js/runtime-main.50376b6d.js.map",
     "static/js/2.fe7ac39b.chunk.js": "/car-insurance/static/js/2.fe7ac39b.chunk.js",
     "static/js/2.fe7ac39b.chunk.js.map": "/car-insurance/static/js/2.fe7ac39b.chunk.js.map",
     "index.html": "/car-insurance/index.html",
-    "static/css/main.6e1bd5bb.chunk.css.map": "/car-insurance/static/css/main.6e1bd5bb.chunk.css.map",
+    "static/css/main.2134eee8.chunk.css.map": "/car-insurance/static/css/main.2134eee8.chunk.css.map",
     "static/js/2.fe7ac39b.chunk.js.LICENSE.txt": "/car-insurance/static/js/2.fe7ac39b.chunk.js.LICENSE.txt",
+    "static/media/companies.23731baf.jpg": "/car-insurance/static/media/companies.23731baf.jpg",
     "static/media/e-class.b97b79b3.jfif": "/car-insurance/static/media/e-class.b97b79b3.jfif",
     "static/media/g-class.2b93f89a.jpg": "/car-insurance/static/media/g-class.2b93f89a.jpg",
     "static/media/index.css": "/car-insurance/static/media/home-background.a9e3508b.png",
@@ -18,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.50376b6d.js",
     "static/js/2.fe7ac39b.chunk.js",
-    "static/css/main.6e1bd5bb.chunk.css",
-    "static/js/main.4dece7f5.chunk.js"
+    "static/css/main.2134eee8.chunk.css",
+    "static/js/main.3d3d46a4.chunk.js"
   ]
 }
