@@ -171,7 +171,83 @@ code {
   filter: blur(0px);
 }
 /* BestCompanies */
+.best-companies{
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+  color: #fff;
+}
 
+.companies-tags{
+  display: flex;
+  justify-content: space-around;
+  transition: 3s;
+}
+.companies-tags:hover{
+  color: #d4af37;
+}
+.companies-tags h1{
+  font-weight: bold;
+  font-size: 52px;
+}
+.companies-tags h1 span{
+  font-style: italic;
+  margin: 0;
+}
+.companies-tags h4{
+  font-size: 30px;
+  margin-top: 20%;
+}
+.companies-tags h4 span{
+  color: #d4af37;
+  margin: 0;
+}
+
+.companies{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 5%;
+}
+.companies-text{
+  transition: 3s;
+}
+.companies-text:hover{
+  color: #d4af37;
+}
+.companies-text h3{
+  font-size: 30px;
+}
+.underlined{
+  width: 450px;
+  text-decoration: underline;
+  font-size: 20px;
+}
+.colored{
+  background-color: #d4af37;
+  width: 450px;
+  padding: 10px;
+  transition: 3s;
+}
+.colored:hover{
+  color: #000000;
+}
+.normal{
+  width: 450px;
+}
+
+.companies img{
+  height: 410px;
+  width: 410px;
+  border-radius: 50%;
+  margin-top: 5%;
+  cursor: pointer;
+  filter: blur(1.5px);
+  transition: 1s;
+}
+.companies img:hover{
+  filter: blur(0px);
+}
 
 /* Contact */
 .contact{
