@@ -386,7 +386,11 @@ code {
   }
 
   .companies-text p{
-    width: 300px;
+    width: 340px;
+  }
+  .colored{
+    font-size: 14px;
+    padding: 0;
   }
 
   .companies img{
