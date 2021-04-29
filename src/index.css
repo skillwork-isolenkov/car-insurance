@@ -180,6 +180,7 @@ code {
 
 .companies-tags{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   transition: 3s;
 }
@@ -374,6 +375,24 @@ code {
   }
 
   /* BestCompanies */
+  .best-companies{
+    text-align: center;
+  }
+  .companies-tags h1{
+    font-size: 30px;
+  }
+  .companies-tags h4{
+    font-size: 20px;
+  }
+
+  .companies-text p{
+    width: 300px;
+  }
+
+  .companies img{
+    height: 275px;
+    width: 275px;
+  }
 
   /* Contact */
   .contact{
