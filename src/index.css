@@ -386,9 +386,7 @@ code {
   }
 
   .companies-text{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+    margin-left: 15px;
   }
   .companies-text p{
     width: 340px;
