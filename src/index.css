@@ -385,6 +385,11 @@ code {
     font-size: 20px;
   }
 
+  .companies-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
   .companies-text p{
     width: 340px;
   }
