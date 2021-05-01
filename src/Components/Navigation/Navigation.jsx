@@ -13,7 +13,7 @@ const Navigation = () => {
         <div className="navigation">
 
             <div className="navbar">
-                <Link to="/" className="navbar-head">Car Dealer</Link>
+                <Link to="/" className="navbar-head">Car Insurance</Link>
                 <Link to="#" className="menu-bars">
                     <FaIcons.FaBars onClick={showSidebar} id="burger-menu" />
                 </Link>

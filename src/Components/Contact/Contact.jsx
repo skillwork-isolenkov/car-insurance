@@ -24,9 +24,11 @@ const Contact = () => {
                 <textarea placeholder="Enter your message" rows="4" cols="50"></textarea>
                 <button>Submit</button>
                 <div className="icons">
-                    <FaIcons.FaFacebookF id="social" />
-                    <FaIcons.FaTwitter id="social" />
-                    <FaIcons.FaInstagram id="social" />
+
+                    <a href="https://github.com/IvanSolenkov"><FaIcons.FaGithub id="social" /></a>
+                    <a href="https://www.linkedin.com/in/ivan-solenkov-7544211ba/"><FaIcons.FaLinkedin id="social" /></a>
+                    <a href="https://www.instagram.com/ivansolenkov99/"><FaIcons.FaInstagram id="social" /></a>
+
                 </div>
             </div>
         </div>

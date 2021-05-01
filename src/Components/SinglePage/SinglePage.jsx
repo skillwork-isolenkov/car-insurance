@@ -3,6 +3,7 @@ import Insurance from '../Insurance/Insurance'
 import Finding from '../Finding/Finding'
 import BestCompanies from '../BestCompanies/BestCompanies'
 import Contact from '../Contact/Contact'
+import Footer from '../Footer/Footer'
 
 const SinglePage = () => {
     return (
@@ -12,6 +13,7 @@ const SinglePage = () => {
             <Finding />
             <BestCompanies />
             <Contact />
+            <Footer />
         </div>
     );
 }
