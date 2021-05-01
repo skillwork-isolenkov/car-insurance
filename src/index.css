@@ -329,6 +329,56 @@ code {
   color: #fff;
 }
 
+/* About */
+.about{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #000000;
+  color: #fff;
+  height: 87.9vh;
+}
+.about iframe{
+  margin-top: 4%;
+}
+
+.about-company{
+  transition: 3s;
+  margin-top: 5%;
+}
+.about-company:hover{
+  color: #d4af37;
+}
+.about-company h1{
+  font-size: 40px;
+  margin: 0;
+  border-left: 5px solid #d4af37;
+  padding-left: 20px;
+  text-transform: uppercase;
+}
+.about-company p{
+  width: 450px;
+  font-size: 15px;
+}
+.about-company button{
+  padding: 10px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 10px;
+  border: 2px solid #d4af37;
+  color: #d4af37;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  transition: 1s;
+  margin-top: 20px;
+}
+.about-company button:hover{
+  background-color: #d4af37;
+  color: #fff;
+}
+
 /* Responsive Design */
 
 /* Portrait */
@@ -414,5 +464,25 @@ code {
 
   .contact-form textarea{
     width: 300px;
+  }
+
+  /* About */
+  .about{
+    height: 110vh;
+  }
+  .about iframe{
+    width: 300px;
+    height: 300px;
+  }
+
+  .about-company{
+    text-align: center;
+  }
+  .about-company h1{
+    font-size: 32px;
+  }
+  .about-company p{
+    width: 300px;
+    font-size: 14px;
   }
 }
