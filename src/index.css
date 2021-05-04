@@ -445,6 +445,49 @@ code {
   color: #fff;
 }
 
+/* Services */
+.services{
+  text-align: center;
+  background-color: #000000;
+  color: #fff;
+  transition: 3s;
+}
+.services h1{
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+.services:hover{
+  color: #d4af37;
+}
+
+.top-boxes, .bottom-boxes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 40px;
+  transition: 3s;
+}
+.top-boxes:hover, .bottom-boxes:hover{
+  color: #d4af37;
+}
+
+.box-services{
+  display: flex;
+  align-items: center;
+}
+.box-text p{
+  width: 300px;
+  font-size: 14px;
+  text-align: left;
+}
+
+#box-icon{
+  font-size: 50px;
+  margin-top: 50px;
+  margin-right: 20px;
+}
+
 /* Responsive Design */
 
 /* Portrait */
