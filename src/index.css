@@ -576,8 +576,14 @@ code {
   }
 
   /* Footer */
-  .input-icon input{
-    margin-left: 17px;
+  .input-elements h2{
+    margin-right: 0;
+  }
+  
+  #input-email{
+    position: absolute;
+    top: auto;
+    right: 35px;
   }
 
   .footer-nav li{
