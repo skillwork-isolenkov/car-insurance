@@ -1,5 +1,6 @@
 import * as AiIcons from "react-icons/ai";
 import * as SiIcons from "react-icons/si";
+import * as RiIcons from "react-icons/ri"
 
 export const SidebarData = [
     {
@@ -12,6 +13,12 @@ export const SidebarData = [
         title: 'About',
         path: '/about',
         icon: <SiIcons.SiAboutDotMe />,
+        cName: 'nav-text'
+    },
+    {
+        title: 'Tour',
+        path: '/tour',
+        icon: <RiIcons.RiMapPinUserFill />,
         cName: 'nav-text'
     }
 ]

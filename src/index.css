@@ -488,6 +488,45 @@ code {
   margin-right: 20px;
 }
 
+/* Benefits */
+.benefits{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #000000;
+  color: #fff;
+}
+.benefits h1{
+  font-size: 40px;
+  text-transform: uppercase;
+  padding-left: 20px;
+  border-left: 3px solid #d4af37;
+}
+.benefits p{
+  width: 350px;
+}
+.benefits-text{
+  margin-top: 10%;
+  transition: 3s;
+}
+.benefits-text:hover{
+  color: #d4af37;
+}
+
+.benefits-images{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10%;
+}
+
+.benefits-images img{
+  height: 300px;
+  width: 200px;
+  margin-right: 20px;
+  border: 2px solid #d4af37;
+  cursor: pointer;
+}
+
 /* Responsive Design */
 
 /* Portrait */
@@ -609,5 +648,14 @@ code {
   .about-company p{
     width: 300px;
     font-size: 14px;
+  }
+
+  /* Benefits */
+  .benefits-images{
+    justify-content: center;
+  }
+  .benefits-images img{
+    margin-right: 0;
+    margin-bottom: 15px;
   }
 }
