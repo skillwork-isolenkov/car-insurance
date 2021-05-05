@@ -758,5 +758,13 @@ code {
   }
 
   /* Tour */
-
+  .tour{
+    height: 120vh;
+  }
+  .tour-text{
+    text-align: center;
+  }
+  .tour-text p{
+    width: 335px;
+  }
 }
