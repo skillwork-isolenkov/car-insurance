@@ -4,6 +4,7 @@ import Finding from '../Finding/Finding'
 import BestCompanies from '../BestCompanies/BestCompanies'
 import Contact from '../Contact/Contact'
 import Footer from '../Footer/Footer'
+import Faq from '../Faq/Faq'
 
 const SinglePage = () => {
     return (
@@ -12,6 +13,7 @@ const SinglePage = () => {
             <Insurance />
             <Finding />
             <BestCompanies />
+            <Faq />
             <Contact />
             <Footer />
         </div>
