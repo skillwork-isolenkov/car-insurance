@@ -527,6 +527,104 @@ code {
   cursor: pointer;
 }
 
+/* Tour */
+.tour{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+  background-image: url(./Components/images/tour/tour-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: top;
+  height: 87.9vh;
+}
+
+.tour-text{
+  transition: 3s;
+}
+.tour-text:hover{
+  color: #d4af37;
+}
+.tour-text h1{
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.tour-text p{
+  width: 400px;
+  font-size: 14px;
+}
+.tour-text button{
+  padding: 14px 27px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #d4af37;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: 1.5s;
+}
+.tour-text button:hover{
+  background-color: #fff;
+  color: #000000;
+}
+
+.tour-quote{
+  padding: 20px 12px;
+  background-color: #d4af37;
+  text-align: center;
+  color: #000000;
+  transition: 3s;
+}
+.tour-quote:hover{
+  color: #fff;
+}
+.tour-quote h4{
+  font-size: 30px;
+  text-transform: uppercase;
+  margin: 0;
+}
+.tour-quote p{
+  width: 300px;
+  font-size: 15px;
+}
+.tour-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tour-form input{
+  height: 35px;
+  width: 222px;
+  font-size: 16px;
+  margin-bottom: 15px;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+}
+.tour-form button{
+  padding: 14px 27px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: 1.5s;
+}
+.tour-form button:hover{
+  background-color: #fff;
+  color: #d4af37;
+}
+
 /* Responsive Design */
 
 /* Portrait */
@@ -658,4 +756,7 @@ code {
     margin-right: 0;
     margin-bottom: 15px;
   }
+
+  /* Tour */
+
 }
