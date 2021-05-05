@@ -475,6 +475,24 @@ code {
   text-decoration: underline;
 }
 
+/* Faq */
+.wrap h1{
+  font-size: 20px;
+}
+
+.dropdown p{
+  font-size: 10px;
+  width: 330px;
+}
+
+.safe-relaxing h2 {
+  font-size: 18px;
+}
+.safe-relaxing img {
+  height: 150px;
+  width: 230px;
+}
+
 /* About */
 .about{
   display: flex;
