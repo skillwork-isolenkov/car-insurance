@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/car-insurance/static/css/main.e8870951.chunk.css",
-    "main.js": "/car-insurance/static/js/main.4ed7efc4.chunk.js",
-    "main.js.map": "/car-insurance/static/js/main.4ed7efc4.chunk.js.map",
+    "main.css": "/car-insurance/static/css/main.8ba3e003.chunk.css",
+    "main.js": "/car-insurance/static/js/main.79618b88.chunk.js",
+    "main.js.map": "/car-insurance/static/js/main.79618b88.chunk.js.map",
     "runtime-main.js": "/car-insurance/static/js/runtime-main.50376b6d.js",
     "runtime-main.js.map": "/car-insurance/static/js/runtime-main.50376b6d.js.map",
-    "static/js/2.56ee6f26.chunk.js": "/car-insurance/static/js/2.56ee6f26.chunk.js",
-    "static/js/2.56ee6f26.chunk.js.map": "/car-insurance/static/js/2.56ee6f26.chunk.js.map",
+    "static/js/2.ddc4b244.chunk.js": "/car-insurance/static/js/2.ddc4b244.chunk.js",
+    "static/js/2.ddc4b244.chunk.js.map": "/car-insurance/static/js/2.ddc4b244.chunk.js.map",
     "index.html": "/car-insurance/index.html",
-    "static/css/main.e8870951.chunk.css.map": "/car-insurance/static/css/main.e8870951.chunk.css.map",
-    "static/js/2.56ee6f26.chunk.js.LICENSE.txt": "/car-insurance/static/js/2.56ee6f26.chunk.js.LICENSE.txt",
+    "static/css/main.8ba3e003.chunk.css.map": "/car-insurance/static/css/main.8ba3e003.chunk.css.map",
+    "static/js/2.ddc4b244.chunk.js.LICENSE.txt": "/car-insurance/static/js/2.ddc4b244.chunk.js.LICENSE.txt",
     "static/media/companies.23731baf.jpg": "/car-insurance/static/media/companies.23731baf.jpg",
     "static/media/e-class.b97b79b3.jfif": "/car-insurance/static/media/e-class.b97b79b3.jfif",
     "static/media/g-class.2b93f89a.jpg": "/car-insurance/static/media/g-class.2b93f89a.jpg",
@@ -17,12 +17,13 @@
     "static/media/photo-1.d4ddbaa6.jpg": "/car-insurance/static/media/photo-1.d4ddbaa6.jpg",
     "static/media/photo-2.70a310e6.jpg": "/car-insurance/static/media/photo-2.70a310e6.jpg",
     "static/media/photo-3.c9057da9.png": "/car-insurance/static/media/photo-3.c9057da9.png",
-    "static/media/s-class.cb85ee2b.jpg": "/car-insurance/static/media/s-class.cb85ee2b.jpg"
+    "static/media/s-class.cb85ee2b.jpg": "/car-insurance/static/media/s-class.cb85ee2b.jpg",
+    "static/media/white-mercedes.bc08ecdc.png": "/car-insurance/static/media/white-mercedes.bc08ecdc.png"
   },
   "entrypoints": [
     "static/js/runtime-main.50376b6d.js",
-    "static/js/2.56ee6f26.chunk.js",
-    "static/css/main.e8870951.chunk.css",
-    "static/js/main.4ed7efc4.chunk.js"
+    "static/js/2.ddc4b244.chunk.js",
+    "static/css/main.8ba3e003.chunk.css",
+    "static/js/main.79618b88.chunk.js"
   ]
 }
