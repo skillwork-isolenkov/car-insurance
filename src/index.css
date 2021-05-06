@@ -866,3 +866,22 @@ code {
     width: 335px;
   }
 }
+
+/* Landscape */
+@media only screen and (max-width: 900px) and (orientation: landscape){
+
+  /* Home */
+  .home{
+    height: 110vh;
+  }
+
+  /* Finding */
+  .right h2{
+    width: 330px;
+  }
+
+  /* Tour */
+  .tour{
+    height: 140vh;
+  }
+}
