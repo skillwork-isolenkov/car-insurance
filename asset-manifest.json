@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/car-insurance/static/css/main.7f03e7e6.chunk.css",
-    "main.js": "/car-insurance/static/js/main.0fae660d.chunk.js",
-    "main.js.map": "/car-insurance/static/js/main.0fae660d.chunk.js.map",
+    "main.css": "/car-insurance/static/css/main.850407b1.chunk.css",
+    "main.js": "/car-insurance/static/js/main.7b12efd7.chunk.js",
+    "main.js.map": "/car-insurance/static/js/main.7b12efd7.chunk.js.map",
     "runtime-main.js": "/car-insurance/static/js/runtime-main.50376b6d.js",
     "runtime-main.js.map": "/car-insurance/static/js/runtime-main.50376b6d.js.map",
-    "static/js/2.2f971d88.chunk.js": "/car-insurance/static/js/2.2f971d88.chunk.js",
-    "static/js/2.2f971d88.chunk.js.map": "/car-insurance/static/js/2.2f971d88.chunk.js.map",
+    "static/js/2.56f1d80a.chunk.js": "/car-insurance/static/js/2.56f1d80a.chunk.js",
+    "static/js/2.56f1d80a.chunk.js.map": "/car-insurance/static/js/2.56f1d80a.chunk.js.map",
     "index.html": "/car-insurance/index.html",
-    "static/css/main.7f03e7e6.chunk.css.map": "/car-insurance/static/css/main.7f03e7e6.chunk.css.map",
-    "static/js/2.2f971d88.chunk.js.LICENSE.txt": "/car-insurance/static/js/2.2f971d88.chunk.js.LICENSE.txt",
+    "static/css/main.850407b1.chunk.css.map": "/car-insurance/static/css/main.850407b1.chunk.css.map",
+    "static/js/2.56f1d80a.chunk.js.LICENSE.txt": "/car-insurance/static/js/2.56f1d80a.chunk.js.LICENSE.txt",
     "static/media/companies.23731baf.jpg": "/car-insurance/static/media/companies.23731baf.jpg",
     "static/media/e-class.b97b79b3.jfif": "/car-insurance/static/media/e-class.b97b79b3.jfif",
     "static/media/g-class.2b93f89a.jpg": "/car-insurance/static/media/g-class.2b93f89a.jpg",
@@ -22,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.50376b6d.js",
-    "static/js/2.2f971d88.chunk.js",
-    "static/css/main.7f03e7e6.chunk.css",
-    "static/js/main.0fae660d.chunk.js"
+    "static/js/2.56f1d80a.chunk.js",
+    "static/css/main.850407b1.chunk.css",
+    "static/js/main.7b12efd7.chunk.js"
   ]
 }
