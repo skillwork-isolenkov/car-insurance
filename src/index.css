@@ -398,6 +398,12 @@ code {
   color: #fff;
 }
 
+.contact-msg{
+  font-size: 17px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
 #social{
   color: #d4af37;
   font-size: 24px;
@@ -473,24 +479,6 @@ code {
 .footer-nav a:hover{
   color: #d4af37;
   text-decoration: underline;
-}
-
-/* Faq */
-.wrap h1{
-  font-size: 20px;
-}
-
-.dropdown p{
-  font-size: 10px;
-  width: 330px;
-}
-
-.safe-relaxing h2 {
-  font-size: 18px;
-}
-.safe-relaxing img {
-  height: 150px;
-  width: 230px;
 }
 
 /* About */
@@ -794,6 +782,24 @@ code {
     height: 275px;
     width: 275px;
   }
+
+  /* Faq */
+.wrap h1{
+  font-size: 20px;
+}
+
+.dropdown p{
+  font-size: 10px;
+  width: 330px;
+}
+
+.safe-relaxing h2 {
+  font-size: 18px;
+}
+.safe-relaxing img {
+  height: 150px;
+  width: 230px;
+}
 
   /* Contact */
   .contact{

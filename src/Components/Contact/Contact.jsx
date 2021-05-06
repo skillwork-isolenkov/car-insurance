@@ -1,6 +1,26 @@
+import { useState } from "react";
 import * as FaIcons from "react-icons/fa";
 
 const Contact = () => {
+    const [message, setMessage] = useState('');
+
+    const buttonClicked = () => {
+        let name = document.querySelector('#contact-name');
+        let email = document.querySelector('#contact-email');
+        let area = document.querySelector('#contact-area');
+
+        let message = document.querySelector('.contact-msg');
+
+
+        if (name.value !== '' && email.value !== '' && area.value !== '') {
+            setMessage('We have received your message, we will contact you soon!');
+            message.style.color = "#08bd08";
+        } else {
+            setMessage('Please fill in required fields!');
+            message.style.color = "red";
+        }
+    }
+
     return (
         <div className="contact">
             <div className="contact-text">
@@ -19,10 +39,11 @@ const Contact = () => {
             </div>
 
             <div className="contact-form">
-                <input type="text" placeholder="Enter your Name" />
-                <input type="text" placeholder="Enter a valid email adress" />
-                <textarea placeholder="Enter your message" rows="4" cols="50"></textarea>
-                <button>Submit</button>
+                <input type="text" placeholder="Enter your Name*" id="contact-name" />
+                <input type="text" placeholder="Enter a valid email adress*" id="contact-email" />
+                <textarea placeholder="Enter your message*" rows="4" cols="50" id="contact-area"></textarea>
+                <button onClick={buttonClicked}>Submit</button>
+                <span className="contact-msg">{message}</span>
                 <div className="icons">
 
                     <a href="https://github.com/IvanSolenkov"><FaIcons.FaGithub id="social" /></a>
