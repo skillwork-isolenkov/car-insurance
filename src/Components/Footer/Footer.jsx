@@ -22,6 +22,9 @@ const Footer = () => {
                         <Link to="/about">About</Link>
                     </li>
                     <li>
+                        <Link to="/tour">Tour</Link>
+                    </li>
+                    <li>
                         <a href="https://www.instagram.com/ivansolenkov99/"><FaIcons.FaInstagram /></a>
                     </li>
                     <li>

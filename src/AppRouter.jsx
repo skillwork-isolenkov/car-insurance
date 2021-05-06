@@ -1,7 +1,7 @@
 import SinglePage from './Components/SinglePage/SinglePage';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import AboutPage from './Components/AboutPage/AboutPage';
-import Tour from './Components/Tour/Tour';
+import TourPage from './Components/TourPage/TourPage';
 
 
 const AppRouter = () => {
@@ -10,7 +10,7 @@ const AppRouter = () => {
             <Switch>
                 <Route path="/home" component={SinglePage} />
                 <Route path="/about" component={AboutPage} />
-                <Route path="/tour" component={Tour} />
+                <Route path="/tour" component={TourPage} />
                 <Redirect to="/home" />
             </Switch>
         </div>
