@@ -1,17 +1,34 @@
 import * as GoIcons from "react-icons/go";
 import * as FaIcons from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 const Footer = () => {
+    const [message, setMessage] = useState('');
+
+    const footerBtn = () => {
+        let input = document.querySelector('.input-icon input');
+
+        let footMsg = document.querySelector('.footer-msg');
+
+        if (input.value !== '') {
+            setMessage('Congratulations, you have subscribed!');
+            footMsg.style.color = "#08bd08";
+        } else {
+            setMessage('Please fill in required field!');
+            footMsg.style.color = "red";
+        }
+    }
     return (
         <div className="footer">
             <div className="input-elements">
                 <h2>Stay Informed Our Updates</h2>
                 <div className="input-icon">
                     <input type="text" placeholder="Enter your email" />
-                    <GoIcons.GoMail id="input-email" />
+                    <GoIcons.GoMail id="input-email" onClick={footerBtn} />
                 </div>
             </div>
+            <span className="footer-msg">{message}</span>
 
             <nav className="footer-nav">
                 <ul>

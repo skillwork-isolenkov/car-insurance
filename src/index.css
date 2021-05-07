@@ -481,6 +481,11 @@ code {
   text-decoration: underline;
 }
 
+.footer-msg{
+  font-size: 20px;
+  margin-top: 10px;
+}
+
 /* About */
 .about{
   display: flex;
@@ -512,11 +517,12 @@ code {
   width: 450px;
   font-size: 15px;
 }
-.about-company button{
+.about-company #about-btn{
   padding: 10px 30px;
   font-size: 16px;
   font-weight: bold;
   text-transform: uppercase;
+  text-decoration: none;
   border-radius: 10px;
   border: 2px solid #d4af37;
   color: #d4af37;
@@ -524,9 +530,8 @@ code {
   outline: none;
   cursor: pointer;
   transition: 1s;
-  margin-top: 20px;
 }
-.about-company button:hover{
+.about-company #about-btn:hover{
   background-color: #d4af37;
   color: #fff;
 }
@@ -642,11 +647,12 @@ code {
   width: 400px;
   font-size: 14px;
 }
-.tour-text button{
+.tour-text #tour-btn{
   padding: 14px 27px;
   font-size: 12px;
   font-weight: bold;
   text-transform: uppercase;
+  text-decoration: none;
   background-color: #d4af37;
   color: #fff;
   border: none;
@@ -655,7 +661,7 @@ code {
   border-radius: 2px;
   transition: 1.5s;
 }
-.tour-text button:hover{
+.tour-text #tour-btn:hover{
   background-color: #fff;
   color: #000000;
 }
@@ -813,6 +819,11 @@ code {
   }
 
   .contact-form textarea{
+    width: 300px;
+  }
+
+  .contact-msg{
+    font-size: 17px;
     width: 300px;
   }
 

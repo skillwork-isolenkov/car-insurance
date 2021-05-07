@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Tour = () => {
     return (
         <div className="tour">
@@ -7,7 +9,7 @@ const Tour = () => {
                     Praesent iaculis ligula eu nulla portittor, eget imperdiet odio pulvinar. Donec massa
                     arcu fermentum ac urna.
                 </p>
-                <button>Take A Tour</button>
+                <Link to="/" id="tour-btn">Take A Tour</Link>
             </div>
 
             <div className="tour-quote">

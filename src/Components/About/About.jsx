@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 
 const About = () => {
     return (
@@ -16,7 +16,7 @@ const About = () => {
                     Phasellus condimentum laoreet nibh at consectetur. Suspendisse potenti mauris pretium. Cras sollcitudin lorem risus,
                     sed ultrices odio aliquam at. Mauris posuere diam at enim malesuada, ac malesuada erat.
                 </p>
-                <button>Learn More</button>
+                <Link to="/" id="about-btn">Learn More</Link>
             </div>
         </div>
     );
