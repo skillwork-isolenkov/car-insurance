@@ -717,6 +717,11 @@ code {
   color: #d4af37;
 }
 
+.tour-msg{
+  font-size: 20px;
+  font-weight: bold;
+}
+
 /* Responsive Design */
 
 /* Portrait */
@@ -839,7 +844,7 @@ code {
   }
 
   .footer-nav li{
-    margin-right: 10px;
+    margin-right: 5px;
   }
 
 
