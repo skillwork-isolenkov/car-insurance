@@ -908,7 +908,7 @@ input:checked + .slider:before {
   /* DarkMode */
   .container-mode{
     left: 30%;
-    top: 10%;
+    top: 13%;
   }
   /* Home */
   .home{
@@ -916,7 +916,7 @@ input:checked + .slider:before {
   }
   .home-elements h1{
     font-size: 25px;
-    margin-top: 35px;
+    margin-top: 60px;
   }
   .home-elements p{
     width: 365px;
@@ -1019,7 +1019,7 @@ input:checked + .slider:before {
 
   /* About */
   .about iframe{
-    margin-top: 65px;
+    margin-top: 90px;
   }
 
   /* Footer */
