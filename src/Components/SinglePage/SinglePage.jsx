@@ -3,7 +3,6 @@ import Insurance from '../Insurance/Insurance'
 import Finding from '../Finding/Finding'
 import BestCompanies from '../BestCompanies/BestCompanies'
 import Contact from '../Contact/Contact'
-import Footer from '../Footer/Footer'
 import Faq from '../Faq/Faq'
 
 const SinglePage = () => {
@@ -15,7 +14,6 @@ const SinglePage = () => {
             <BestCompanies />
             <Faq />
             <Contact />
-            <Footer />
         </div>
     );
 }

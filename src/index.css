@@ -12,6 +12,206 @@ code {
     monospace;
 }
 
+/* Dark Mode */
+#span-mode {
+  font-size: 40px
+}
+
+.dark-mode {
+  background-color: #000000;
+  color: #fff;
+  height: 100%;
+  transition: background-color 0.25s ease-in-out;
+}
+
+.light-mode {
+  background-color: #fff;
+  color: #333;
+  height: 100%;
+  transition: background-color 0.25s ease-in-out;
+}
+
+.container-mode {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 45%;
+  top: 3%;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 14px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #19a2c1;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.switch-checkbox {
+  padding: 10px
+}
+
+/* Navigation */
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+.navbar-head{
+  color: #d4af37;
+  font-size: 2rem;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 3rem;
+  transition: 0.5s;
+}
+.navbar-head:hover{
+  color: #d4af37;
+}
+
+.menu-bars{
+  margin-right: 3rem;
+  margin-top: 10px;
+  font-size: 2rem;
+  background: none;
+}
+
+.nav-menu{
+  background: rgba(0, 0, 0, 0.9);
+  width: 200px;
+  height: 100vh;
+  display: flex;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  transition: 2s;
+}
+
+.nav-menu.active{
+  right: 0;
+  transition: 1s;
+}
+
+.nav-text{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 8px 0px 8px 0px;
+  list-style: none;
+  height: 30px;
+}
+
+.nav-text a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 4px;
+  transition: 0.5s;
+}
+
+.nav-text a:hover{
+  text-decoration: underline;
+  color: #d4af37;
+}
+
+.nav-items{
+  width: 100%;
+}
+
+.navbar-toggle{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+}
+
+#burger-menu{
+  color: #d4af37;
+  transition: 0.5s;
+}
+#burger-menu:hover{
+  text-decoration: underline;
+  color: #d4af37;
+}
+
+#span-title{
+  margin-left: 16px;
+}
+
+
 /* Home */
 .home{
   display: flex;
@@ -50,8 +250,6 @@ code {
   display: flex;
   flex-direction: column;
   text-align: center;
-  color: #fff;
-  background-color: #000000;
   transition: 3s;
 }
 .insurance:hover{
@@ -113,8 +311,6 @@ code {
   display: flex;
   flex-direction: column;
   text-align: center;
-  background-color: #000000;
-  color: #fff;
 }
 
 .finding-text{
@@ -174,8 +370,6 @@ code {
 .best-companies{
   display: flex;
   flex-direction: column;
-  background-color: #000000;
-  color: #fff;
 }
 
 .companies-tags{
@@ -252,8 +446,6 @@ code {
 
 /* Faq */
 .faq{
-  background-color: #000000;
-  color: #fff;
   text-align: center;
 }
 .faq h1{
@@ -294,8 +486,6 @@ code {
 }
 
 .wrap{
-  background-color: #000000;
-  color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -335,8 +525,6 @@ code {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  background-color: #000000;
-  color: #fff;
   height: 60vh;
 }
 .contact-text{
@@ -420,8 +608,6 @@ code {
   display: flex;
   flex-direction: column;
   text-align: center;
-  background-color: #000000;
-  color: #fff;
 }
 
 .input-elements{
@@ -471,13 +657,12 @@ code {
   align-items: center;
 }
 .footer-nav a{
-  color: #fff;
+  color: #d4af37;
   text-decoration: none;
   font-size: 17px;
   transition: 1s;
 }
 .footer-nav a:hover{
-  color: #d4af37;
   text-decoration: underline;
 }
 
@@ -491,8 +676,6 @@ code {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  background-color: #000000;
-  color: #fff;
   height: 87.9vh;
 }
 .about iframe{
@@ -539,8 +722,6 @@ code {
 /* Services */
 .services{
   text-align: center;
-  background-color: #000000;
-  color: #fff;
   transition: 3s;
 }
 .services h1{
@@ -584,8 +765,6 @@ code {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  background-color: #000000;
-  color: #fff;
 }
 .benefits h1{
   font-size: 40px;
@@ -726,12 +905,18 @@ code {
 
 /* Portrait */
 @media only screen and (max-width: 900px) {
+  /* DarkMode */
+  .container-mode{
+    left: 30%;
+    top: 10%;
+  }
   /* Home */
   .home{
     height: 70vh;
   }
   .home-elements h1{
     font-size: 25px;
+    margin-top: 35px;
   }
   .home-elements p{
     width: 365px;
@@ -830,6 +1015,11 @@ code {
   .contact-msg{
     font-size: 17px;
     width: 300px;
+  }
+
+  /* About */
+  .about iframe{
+    margin-top: 65px;
   }
 
   /* Footer */

@@ -3,7 +3,6 @@ import * as AiIcons from "react-icons/ai";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { SidebarData } from "./SidebarData";
-import './Navigation.css'
 
 const Navigation = () => {
     const [sidebar, setSidebar] = useState(false);
@@ -31,7 +30,7 @@ const Navigation = () => {
                             <li key={index} className={item.cName}>
                                 <Link to={item.path}>
                                     {item.icon}
-                                    <span>{item.title}</span>
+                                    <span id="span-title">{item.title}</span>
                                 </Link>
                             </li>
                         )
