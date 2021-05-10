@@ -1033,10 +1033,12 @@ input:checked + .slider:before {
     right: 35px;
   }
 
-  .footer-nav li{
-    margin-right: 5px;
+  .footer-nav ul{
+    margin-right: 25px;
   }
-
+  .footer-nav li{
+    margin-right: 0px;
+  }
 
   /* About */
   .about{

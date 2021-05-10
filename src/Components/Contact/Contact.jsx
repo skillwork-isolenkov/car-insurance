@@ -49,6 +49,7 @@ const Contact = () => {
                     <a href="https://github.com/IvanSolenkov"><FaIcons.FaGithub id="social" /></a>
                     <a href="https://www.linkedin.com/in/ivan-solenkov-7544211ba/"><FaIcons.FaLinkedin id="social" /></a>
                     <a href="https://www.instagram.com/ivansolenkov99/"><FaIcons.FaInstagram id="social" /></a>
+                    <a href="https://www.facebook.com/profile.php?id=100044530309410"><FaIcons.FaFacebook id="social" /></a>
 
                 </div>
             </div>
